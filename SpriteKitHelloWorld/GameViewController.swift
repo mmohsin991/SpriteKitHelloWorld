@@ -32,7 +32,7 @@ class GameViewController: UIViewController {
         super.viewDidLoad()
 
         
-        let scene = GameScene(fileNamed: "GameScene")
+        let scene = GameScene()
         
         scene.size = self.view.bounds.size
         scene.scaleMode = SKSceneScaleMode.AspectFit
